@@ -1,0 +1,94 @@
+# Task for research -> search
+
+## Topic _Light Emitting Diode_
+
+### Infra Red Light Emitting Diode in 1200 nm Range have Moderate Performance in Detecting Glucose in Human Blood Glucose Model
+
+[Link to paper](https://cyberleninka.org/article/n/93827)
+
+#### Answers:
+
+##### Hypothesis:
+Measuring the glucose level in blood is too risky since you have to put a needle into the skin that can cause infections of the skin,risk
+of causing the deployment infectious diseases  such as hepatitis,HIV,etc.One of the main problems in the measurment of blood glucose is
+that there is no consesus on the ideal wavelength to detect glucose in human blood in the human body.A wavelength of 1200 nm is proposed.
+The purpose is to prove the ability of wave 1200 nm LED to detect glucose in human blood.
+
+##### Experiments:
+The model of human blood glucose is made with pure glucose in the aqueous solution mimics human blood,at 50 mg/dl,100 mg/dl,150 mg/
+dl,200 mg/dl,250 mg/dl,300 mg/dl,350 mg/dl,400 mg/dl,450 mg/dl,500 mg/dl.1200 nm IR LED and photo-diode provided by Thorlabs,is controlled
+using the Arduino,is used to measure the glucose concentration in the model in the cuvette.LED fired using twin table model,in Width
+Modulation (PWM) 10 Pulse different intensity, and improved value using Fast Fourier Transform.The correlation between the concentration 
+of glucose intended and photo-diode reading is calculated using Libre Office Calc,
+
+ 
+ ##### Conclusion:
+ Based on the recearch that has been done is made a conclusion that the measurement of glucose solution by using wavelength of 1200 nm
+ LED that concretation value closer to 1 or -1 is said to be good.
+ 
+ ## Topic _Ethernet_
+ 
+ ### Loop Redundant of Industrial Ethernet Applied to Airport
+ 
+ [Link to paper](https://cyberleninka.org/article/n/316090)
+ 
+ #### Answers:
+ 
+ ##### Hypothesis:
+ Usually, the terminal of modern large hub airport adopts airport terminal layout combined single line with corridors. As the airport 
+ station facilities of information system terminal equipments and electromechanical equipments located every reservation generally use 
+ SCADA technology and information system to collect working condition, monitor and remote operation these facilities. Such as passenger 
+ boarding bridge located in landing field. Loop redundant of industrial ethernet is a reasonable scheme to access these facilities to 
+ SCADA system network in a optimal way by the most reasonable technology and the minimum resources cost. 
+ 
+ ##### Experiments:
+ In case of using Loop redundant of industrial ethernet model we have less reliance on access equipments gathering switch.To avoid the 
+ fault of single gathering switch, otherwise, it will result in its some part of bottom terminal exchanges without connecting the core
+ server. Meanwhile, it provides a redundant link for network data transmission and greatly improves the network reliability, which is a 
+ perfect choice for industry control information transmission.To facilitate management and unified deployment, we can design the server 
+ between networks as a network model, and every access on ring network equipments are designed as a network model. 
+ 
+ 
+ ##### Conclusion:
+ With the sustainable development of economy, it has made significant improvements in whole civil aviation. As the hub airport
+ scale expands gradually, industrial hiper-ring Ethernet shall provide more reliable and stable supports to station site  equipments 
+ access of hub airport, it will be used more and more widely.
+ 
+ ## Topic _Digital Voltmeter_
+ 
+ ### Determination of High-Resolution Digital Voltmeter Input Parameters
+ 
+ [Link to paper](https://ieeexplore.ieee.org/abstract/document/4515906)
+ 
+ #### Answers:
+ 
+ ##### Hypothesis:
+ High-resolution digital voltmeters (DVMs) can be widely used when precise measurements are needed, but input circuitry can contribute 
+ to the results of measurement. Therefore, to make uncertainty of measurement as small as possible for a particular measurement, it is
+ necessary to characterize its input parameters. In this paper the methods for the determination of input resistance, input capacitance
+ and input offset current of widely used precise DVMs HP 3458A with 8 1/2-digit resolution are presented. The method with voltage source
+ and high-ohmic divider resistor has been developed for the determination of both input offset current IS and input resistance RV.
+ 
+ ##### Experiments:
+ A. Determination of Input Offset Current Is
+ First, the measurement step of the method is the measurement of offset voltage U0 of the TA when the DVM’s input terminals are shorted
+ with switch S.The next steps begins by opening switch S and setting the output voltage of the calibrator to 0 V.
+ B. Determination of Input Resistance RV
+ For the determination of input resistance RV , the calibrator output must be set on voltage UC (for example, 10 V). After the stationary
+ state has been achieved, voltage UV has been measured by DVM.
+ C. Determination of Input Capacitance CV
+ A stepped voltage of 10 V was applied, and a faster sampling rate was used to scan the exponential growth of UV . Using an approprate
+ exponential growth of UV . Using an appropriate exponential fitting function, time constant RP CV has been determined,and then,the 
+ input capacitance is calculated. 
+ 
+ 
+ ##### Conclusion:
+ The use of precise DVMs for high-accuracy measurements needs to address all possible sources of errors. The DVM input circuitry can
+ contribute to the measurement uncertainty, and it is therefore important to characterize it. The methods presented in this paper can
+ be used for accurate determination of DVM input parameters. The method with voltage source and high ohmic resistor divider has been
+ developed for the determination of both input offset current IS and input resistance RV . The second method with the source of linear
+ voltage ramp and picoampermeter is primarily used for the determination of input capacitance CV . It was shown  than the input 
+ parameters are fairly stable during a period of 10 min.
+ 
+
+ 
